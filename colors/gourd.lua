@@ -13,6 +13,7 @@ local negative   = "#cc241d"
 local selection  = "#3c463d"
 local current_bg = "#332f32"
 local current_fg = "#ebdbb2"
+local line_num   = "#665c54"
 
 local colors = {
     Normal = {bg = background, fg = foreground},
@@ -39,7 +40,7 @@ local colors = {
     Folded = {bg = comment, fg = background},
     Function = {fg = method},
     Identifier = {fg = variable},
-    LineNr = {fg = foreground},
+    LineNr = {fg = line_num},
     MatchParen = {bg = keyword, fg = background},
     ModeMsg = {fg = method},
     NonText = {fg = background},
