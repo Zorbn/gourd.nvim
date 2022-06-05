@@ -77,7 +77,7 @@ local colors = {
     TSString = {fg = string},
     TSStringEscape = {fg = keyword},
     TSText = {fg = foreground},
-    TSType = {fg = keyword},
+    TSType = {fg = class},
     TSTypeBuiltin = {fg = keyword},
     TSVariable = {fg = variable},
     TSVariableBuiltin = {fg = class},
