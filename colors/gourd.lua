@@ -8,6 +8,7 @@ local method     = "#83a598"
 local class      = "#83a598"
 local number     = "#fe8019"
 local comment    = "#a89984"
+local param      = "#fabd2f"
 local string     = "#b8bb26"
 local negative   = "#cc241d"
 local selection  = "#3c463d"
@@ -71,7 +72,7 @@ local colors = {
     TSConstructor = {fg = method},
     TSNumber = {fg = number},
     TSOperator = {fg = operator},
-    TSParameter = {fg = foreground},
+    TSParameter = {fg = param},
     TSPunctBracket = {fg = foreground},
     TSPunctDelimiter = {fg = foreground},
     TSPunctSpecial = {fg = foreground},
