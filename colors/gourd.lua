@@ -68,6 +68,7 @@ local colors = {
     TSBoolean = {fg = number},
     TSField = {fg = variable},
     TSMethod = {fg = method},
+    TSConstructor = {fg = method},
     TSNumber = {fg = number},
     TSOperator = {fg = operator},
     TSParameter = {fg = foreground},
