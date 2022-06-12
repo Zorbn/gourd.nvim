@@ -91,6 +91,7 @@ local colors = {
     Whitespace = {fg = keyword},
     WildMenu = {bg = method, fg = background},
     Winseparator = {fg = dark_bg},
+    Whitespace = {fg = foreground},
     lCursor = {},
 }
 
